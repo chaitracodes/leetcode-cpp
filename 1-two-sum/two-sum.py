@@ -36,9 +36,9 @@ alternative code ->
 
         mp = {}
         for i , num in enumerate(nums):
-            if target - nums in mp:
+            if target - num in mp:
                 return [mp[target - num], i]
-                mp[num] = i
+            mp[num] = i
                 
         
         
